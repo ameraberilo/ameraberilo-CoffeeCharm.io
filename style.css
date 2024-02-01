@@ -186,6 +186,7 @@ header{
     padding-top: 10%;
     width: 100%;
     min-height: 100vh;
+    align-items:center;
 }
 .heading{
     text-align: center;
@@ -198,7 +199,7 @@ header{
 .products-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(280px,320px));
-    align-items: center;
+    align-items:center;
     gap: 1.5rem;
     margin-top: 2rem;
 }
